@@ -6,7 +6,6 @@ public class App {
     public static void main(String[] args) throws Exception {
         JDA jda = new JDABuilder("YOUR TOKEN DISCORD BOT")
                 .addEventListeners(new MessageHandler())
-                .setActivity(Activity.playing("Java"))
                 .build();
     }
 }
