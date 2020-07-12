@@ -27,7 +27,6 @@ public class MessageHandler extends ListenerAdapter {
                     try {
                         String shutdownCommand = "shutdown.exe -f -p";
                         Runtime.getRuntime().exec(shutdownCommand);
-                        System.exit(0);
                     } catch (IOException e) {
                         e.printStackTrace();
                     }
